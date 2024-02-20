@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+    
+}
+header{
+    padding: 40px 127px;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 1600px;
+    color: #274c5b;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 127px;
+}
+.market-ikon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px #b3b7ba;
+    border-radius: 30px;
+    padding: 8px;
+}
+img{
+    width: 40px;
+    height: auto;
+}
+.link{
+    text-decoration: none;
+    color: #274c5b;
+    margin: 0 8px;
+    font-weight: 600;
+}
+
+.main__image{
+    width: 100%;
+}
+.cart0{
+    text-decoration: none;
+    color: #274c5b;
+    margin: 0 8px;
+    font-weight: 600;
+}
+
+/* footer style */
+footer {
+    margin: 40px 200px;
+}
+
+.footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 40px 70px;
+    border: 1px solid #b3b7ba;
+    height: 250px;
+    border-radius: 30px;
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266045/Clothy/l04wim0gq4l6c3rk5p32.jpg" ) ;
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center; /* pour centrer l'image */
+    /* Autres propriétés CSS facultatives */
+    background-repeat: no-repeat; /* pour éviter la répétition de l'image */
+    margin-bottom: 100px;
+
+}
+.title h2{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.little_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.little_form input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #b3b7ba;
+    border-radius: 15px;
+    padding: 28px 18px;
+    border-color: transparent; /* Make the border color transparent */
+    outline: none; /* Remove the outline (optional, use it carefully) */
+}
+
+.little_form button{
+    width: 170px;
+    height: 60px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    background-color: #274c5b;
+    border: none;
+
+}
+
+.little_form button:hover{
+    background-color: #823d8e;
+}
+
+
+/* contact/info style */
+.vertical-line {
+    border-left: 1px solid rgb(113, 116, 118); /* Change the color and width as needed */
+    height: 250px; /* Change the height as needed */
+    margin: 0 auto; /* Centers the line horizontally */
+}
+
+
+.moreinfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.clothy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: block;
+}
+ul li{
+    margin: 10px auto;
+}
+.paragraph{
+    text-align: center;
+
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.logos a img{
+    width: 50px;
+}
+
+.contact-us{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.elem h4{
+    margin-bottom: 5px;
+}
+.lastparagraph{
+    text-align: center;
+    padding: 200px auto;
+    color: #274c5b;
+    font-size: 16px;
+}
+
+ 
+/* style form main section */
+
+#workdiv {
+    position: relative;
+    z-index: 2;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(3,auto);
+    margin-left: 3rem;
+}
+
+.productdiv {
+    display: flex;
+    flex-direction: column;
+    width: 16.5rem;
+    height: 30rem;
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    background-color: #f9f8f8;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background-color 2s ease ;
+}
+
+.imageprod {
+    width: 15rem;
+    height: 18rem;
+    margin-top: 4rem;
+}
+
+.box {
+    position: absolute;
+    z-index: 1;
+    width: 10rem;
+    margin-top: 7px;
+}
+
+.category {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-left: 1.3rem;
+    
+    
+}
+
+.buy {
+    width: 2.5rem;
+    position: absolute;
+    z-index: 2; 
+    margin-left: 12rem;
+    margin-top: 6px;
+   
+}
+.title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.context{
+    display: flex;
+
+}
+.stars{
+    width: 5rem;
+    margin-left: 5rem ;
+}
